@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <title>Contact</title>
+
+    <head>
+        <link rel="stylesheet" href="styles/styles-shared.css">
+        <link rel="stylesheet" href="styles/styles-contact.css">
+    </head>
+
+    <body>
+        
+   
+        <h1><a href="index.html"><img src="images/back.png" class="back"></a> Contact</h1>
+        <hr>
+
+       
+        <h2>Contacting William</h2>
+        Questions about the future? Looking for enlightenment? Have any other questions or comments?
+
+     
+        <h3><u>Contact Quick Chart</u></h3>
+        <i>Save yourself time by referencing this Inquiry chart before attempting contact:</i>
+        <br>
+        <table style="text-align:center" >
+            <tr>
+              <th>Inquiry Type</th>
+              <th>Recommended</th>
+              <th>Typical Response Time</th>
+            </tr>
+            <tr>
+              <td>Questions</td>
+              <td><img src="images/v.png"></td>
+              <td>24-48 Hours</td>
+            </tr>
+            <tr>
+                <td>Offers of Money</td>
+                <td><img src="images/v.png"></td>
+                <td>15 Minutes</td>
+              </tr>
+              <tr>
+                <td>Bills/Collections</td>
+                <td style="background-color: rgba(250, 151, 151, 0.411)"><img src="images/x.png"></td>
+                <td>4-6 Weeks</td>
+              </tr>
+          </table>
+
+       
+        <h2>
+            <u>Contact Form</u>
+        </h2>
+
+        <form>
+            <fieldset>
+                <legend>Contact Inquiry</legend>
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" name="name" required />
+                <label for="address">Enter your message:</label>
+                <textarea id="address" name="address" required></textarea>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+
+        <h2>
+            <u>Form #2</u>
+        </h2>
+        <p>Form #2 is for advanced users. Only use Form #2 if you know exactly what you are doing.</p>
+        <form>
+            <fieldset>
+                <legend>User Personal Information</legend>
+                <label for="name">Enter your Social Security Number:</label>
+                <input type="text" id="name" name="name" required />
+                <label>Enter your political affiliation:</label>
+                <div class="group">
+                    <input type="radio" name="radio" value="male" id="male" required />
+                    <label for="male">Left</label>
+                    <input type="radio" name="radio" value="female" id="female" />
+                    <label for="female">Right</label>
+                    <input type="radio" name="radio" value="others" id="others" />
+                    <label for="others">Center</label>
+                    <input type="radio" name="radio" value="anarchist" id="anarchist" />
+                    <label for="anarchist">Anarchist</label>
+                </div>
+                <label for="address">Enter your Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required />
+                <label for="dob">Enter your Mother's Maiden name:</label>
+                <textarea id="address" name="address" required></textarea>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+    </body>
+</html>

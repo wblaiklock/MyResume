@@ -1,0 +1,35 @@
+.card-body {
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px;
+}
+
+.img-container img {
+    max-width: 40%;
+}
+
+.card-body p, .card-body h1 {
+    margin: 8px;
+}
+
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    color: aquamarine;
+    padding-bottom: 200px;
+}
+
+h2 {
+    font-size: large;
+}
+
+.navbar-brand {
+    transition-duration: 0.2s;
+}
+.navbar-brand:hover {
+transform: translateX(8px);
+}
+

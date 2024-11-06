@@ -1,0 +1,87 @@
+table{
+    width: 540px;
+    border:2px;
+    border-color: black;
+    padding-top: 16px;
+}   
+tr:first-child
+{
+    background-color: rgba(150, 212, 212, 0.4);
+}
+td:nth-child(2)
+{
+    background-color: rgba(231, 243, 121, 0.411);
+}
+td:nth-child(odd) {
+    background-color: rgba(207, 235, 207, 0.363);
+}
+img {
+    width:32px
+}
+
+form {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.group {
+    margin-bottom: 10px;
+}
+
+.group label {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+input[type="text"], input[type="email"], textarea{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    width:600px;
+}
+
+h1{
+    font-size: 44px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    transition-duration: 0.6s;
+}
+.navbar-brand:hover {
+ transform: translateX(-8px);
+}
+.back {
+    transition-duration: 0.6s;
+}
+.back:hover {
+transform:scale(1.333);
+}
